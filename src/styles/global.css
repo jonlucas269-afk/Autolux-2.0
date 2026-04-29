@@ -1,0 +1,193 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #0a0a0a;
+  color: white;
+}
+
+/* =========================
+   ANIMAÇÕES
+========================= */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* =========================
+   NAVBAR
+========================= */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+  background: #000;
+  border-bottom: 1px solid #222;
+}
+
+.nav a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.nav a:hover {
+  color: #ff0055;
+}
+
+/* =========================
+   HOME / CONTAINERS
+========================= */
+.hero,
+.home,
+.catalogo {
+  animation: fadeUp 0.6s ease-out;
+}
+
+/* =========================
+   GRID
+========================= */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* =========================
+   CARD DE CARRO
+========================= */
+.card {
+  background: #151515;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  transform: translateY(0);
+}
+
+/* 🔥 hover premium */
+.card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+}
+
+/* =========================
+   IMAGEM DO CARRO
+========================= */
+.car-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.card:hover .car-image {
+  transform: scale(1.1);
+}
+
+/* =========================
+   INFO
+========================= */
+.info {
+  padding: 12px;
+}
+
+.details {
+  font-size: 12px;
+  color: #aaa;
+}
+
+.price {
+  color: #00ff88;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+/* =========================
+   BOTÕES
+========================= */
+.btn,
+.btn-whatsapp,
+.btn-fav {
+  transition: all 0.3s ease;
+}
+
+/* botão vermelho */
+.btn {
+  width: 100%;
+  padding: 10px;
+  background: #ff0055;
+  border: none;
+  color: white;
+  margin-top: 8px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  transform: scale(1.03);
+  background: #ff3377;
+}
+
+/* whatsapp */
+.btn-whatsapp {
+  display: block;
+  margin-top: 8px;
+  background: #25d366;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.btn-whatsapp:hover {
+  transform: scale(1.03);
+  background: #1ebe5d;
+}
+
+/* favoritos */
+.btn-fav {
+  width: 100%;
+  margin-top: 8px;
+  padding: 10px;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-fav:hover {
+  transform: scale(1.03);
+  background: white;
+  color: black;
+}
+
+/* =========================
+   TÍTULOS / INPUT
+========================= */
+h1, h2 {
+  text-align: center;
+}
+
+input {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  width: 320px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
