@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useFavorites } from "../hooks/useFavorites";
 
 export default function VehicleCard({ vehicle }) {
@@ -33,9 +34,9 @@ export default function VehicleCard({ vehicle }) {
         <p className="price">{precoFormatado} EUR</p>
 
         <div className="card-actions">
-          <button className="btn" type="button">
+          <Link className="btn" to={`/viaturas/${vehicle.id}`}>
             Ver Detalhes
-          </button>
+          </Link>
 
           <a
             className="btn-whatsapp"
