@@ -2,7 +2,7 @@ import data from "../data/vehicles.json";
 import VehicleCard from "../components/VehicleCard";
 
 export default function Home() {
-  const destaques = data.slice(0, 3);
+  const destaques = data.filter((vehicle) => vehicle.destaque).slice(0, 4);
   const precoMedio = Math.round(
     data.reduce((total, vehicle) => total + vehicle.preco, 0) / data.length
   );

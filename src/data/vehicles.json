@@ -7,8 +7,12 @@
     "combustivel": "Diesel",
     "km": 30000,
     "preco": 34900,
+    "potencia": "190 cv",
+    "caixa": "Automática",
+    "cor": "Preto",
+    "destaque": true,
     "imagem": "/cars/bmw.jpg",
-    "descricao": "Sedan premium com excelente performance e conforto."
+    "descricao": "BMW Série 3 muito estimado, com motorização diesel equilibrada entre desempenho e consumos, ideal para quem procura conforto em viagem e qualidade de construção premium. Viatura equipada com caixa automática, sensores de estacionamento, faróis LED, sistema de navegação, cruise control e interior com acabamentos de nível superior. Histórico de manutenção regular, excelente apresentação geral e condução muito suave."
   },
   {
     "id": 2,
@@ -18,8 +22,12 @@
     "combustivel": "Diesel",
     "km": 42000,
     "preco": 31900,
+    "potencia": "163 cv",
+    "caixa": "Automática",
+    "cor": "Cinzento",
+    "destaque": true,
     "imagem": "/cars/audi.jpg",
-    "descricao": "Sedan premium com tecnologia e conforto."
+    "descricao": "Audi A4 em excelente estado geral, com imagem elegante e um nível de conforto muito acima da média para utilização diária ou viagens longas. Destaca-se pelo bom isolamento acústico, qualidade de materiais no interior, sistema multimédia intuitivo, ajuda ao estacionamento, climatização automática e caixa automática muito suave. Carro muito equilibrado, económico para a categoria e com manutenção cuidada."
   },
   {
     "id": 3,
@@ -29,8 +37,12 @@
     "combustivel": "Diesel",
     "km": 39000,
     "preco": 35900,
+    "potencia": "194 cv",
+    "caixa": "Automática",
+    "cor": "Prata",
+    "destaque": true,
     "imagem": "/cars/mercedes.jpg",
-    "descricao": "Luxo e conforto premium."
+    "descricao": "Mercedes-Benz Classe C com visual distinto, grande conforto de marcha e presença premium, ideal para quem valoriza elegância e tecnologia. Conta com caixa automática, excelente posição de condução, interior refinado, sistema de infoentretenimento moderno, sensores de estacionamento, assistências à condução e um motor diesel muito competente para uso misto. Viatura bem conservada, com habitáculo muito cuidado e condução segura."
   },
   {
     "id": 4,
@@ -40,8 +52,12 @@
     "combustivel": "Gasolina",
     "km": 12000,
     "preco": 245000,
+    "potencia": "670 cv",
+    "caixa": "Automática",
+    "cor": "Vermelho",
+    "destaque": false,
     "imagem": "/cars/ferrari.jpg",
-    "descricao": "Super desportivo de alta performance."
+    "descricao": "Ferrari 488 GTB numa configuração muito apelativa, com desempenho de superdesportivo e uma experiência de condução verdadeiramente exclusiva. Viatura com resposta imediata, travagem de alto nível, som marcante e um interior orientado para condução desportiva sem perder sofisticação. Modelo muito procurado, com baixa quilometragem, excelente estado estético e mecânico, ideal para coleção ou utilização ocasional especial."
   },
   {
     "id": 5,
@@ -51,8 +67,12 @@
     "combustivel": "Gasolina",
     "km": 5000,
     "preco": 320000,
+    "potencia": "640 cv",
+    "caixa": "Automática",
+    "cor": "Verde",
+    "destaque": false,
     "imagem": "/cars/lambo.jpg",
-    "descricao": "Super desportivo V10 de alta performance."
+    "descricao": "Lamborghini Huracán com motorização V10 e imagem extremamente marcante, pensado para quem procura exclusividade, potência e emoção ao volante. Apresenta uma condução precisa, aceleração impressionante, acabamento premium e presença visual única. Unidade com poucos quilómetros, muito bem estimada, com interior desportivo, jantes de grande dimensão e equipamento orientado para uma experiência de condução intensa."
   },
   {
     "id": 6,
@@ -62,7 +82,116 @@
     "combustivel": "Gasolina",
     "km": 15000,
     "preco": 165000,
+    "potencia": "500 cv",
+    "caixa": "Automática",
+    "cor": "Branco",
+    "destaque": false,
     "imagem": "/cars/porsche.jpg",
-    "descricao": "Desportivo puro de pista."
+    "descricao": "Porsche 911 GT3 para verdadeiros entusiastas da condução, combinando desempenho de pista com qualidade de construção e fiabilidade reconhecida da marca. Modelo muito preciso em curva, com excelente comportamento dinâmico, travagem forte, resposta imediata do motor e interior focado no condutor. Viatura com quilometragem reduzida para o segmento, em ótimo estado de conservação, indicada tanto para coleção como para uso desportivo."
+  },
+  {
+    "id": 7,
+    "marca": "Volkswagen",
+    "modelo": "Golf 8 1.5 TSI",
+    "ano": 2023,
+    "combustivel": "Gasolina",
+    "km": 15000,
+    "preco": 27500,
+    "potencia": "150 cv",
+    "caixa": "Manual",
+    "cor": "Cinzento Dolphin",
+    "destaque": true,
+    "imagem": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Volkswagen_Golf_VIII_R_20_Years_Auto_Zuerich_2023_1X7A1358.jpg",
+    "descricao": "Golf 8 na versão Style com Digital Cockpit Pro, sistema de navegação Discover Pro, ACC (cruise control adaptativo), Lane Assist e climatronic. Garantia de fábrica até 2026."
+  },
+  {
+    "id": 8,
+    "marca": "Peugeot",
+    "modelo": "3008 GT 1.5 BlueHDi",
+    "ano": 2022,
+    "combustivel": "Diesel",
+    "km": 38000,
+    "preco": 31000,
+    "potencia": "130 cv",
+    "caixa": "Automática",
+    "cor": "Azul Vertigo",
+    "destaque": false,
+    "imagem": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Peugeot_3008_II_BlueHDi_130_%282022%29_%2853369578107%29.jpg",
+    "descricao": "Peugeot 3008 GT com i-Cockpit de nova geração, teto panorâmico, Night Vision, carregador wireless para smartphone e sistema de som focal premium. Viatura muito bem estimada."
+  },
+  {
+    "id": 9,
+    "marca": "Toyota",
+    "modelo": "Corolla 1.8 Hybrid",
+    "ano": 2023,
+    "combustivel": "Híbrido",
+    "km": 12000,
+    "preco": 26500,
+    "potencia": "140 cv",
+    "caixa": "Automática (e-CVT)",
+    "cor": "Vermelho Emotional",
+    "destaque": true,
+    "imagem": "https://commons.wikimedia.org/wiki/Special:Redirect/file/2019_Toyota_Corolla_front.jpg",
+    "descricao": "Corolla Hybrid com consumos médios reais de 4.2L/100km. Equipado com Toyota Safety Sense 3.0, ecrã multimédia de 10.5 polegadas, Apple CarPlay e Android Auto sem fios. Garantia Toyota Relax até 2033."
+  },
+  {
+    "id": 10,
+    "marca": "Renault",
+    "modelo": "Clio 1.0 TCe",
+    "ano": 2021,
+    "combustivel": "Gasolina",
+    "km": 52000,
+    "preco": 15900,
+    "potencia": "100 cv",
+    "caixa": "Manual",
+    "cor": "Laranja Valência",
+    "destaque": false,
+    "imagem": "https://commons.wikimedia.org/wiki/Special:Redirect/file/2019_Renault_Clio_Iconic_TCE_1.0_Front.jpg",
+    "descricao": "Renault Clio na versão Intens com ecrã multimédia Easy Link de 9.3 polegadas, câmara traseira e sensores de estacionamento. Ideal para cidade, económico e fácil de estacionar. Segunda mão certificada Renault."
+  },
+  {
+    "id": 11,
+    "marca": "Tesla",
+    "modelo": "Model 3 Standard Range",
+    "ano": 2023,
+    "combustivel": "Elétrico",
+    "km": 9000,
+    "preco": 35500,
+    "potencia": "283 cv",
+    "caixa": "Automática",
+    "cor": "Branco Pérola",
+    "destaque": false,
+    "imagem": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Tesla-Model-3-front-right.jpg",
+    "descricao": "Tesla Model 3 com autonomia de 491 km (WLTP), Autopilot de série, ecrã central de 15.4 polegadas, atualizações over-the-air e acesso por smartphone. Supercharging gratuito durante 1 ano. Bateria em perfeito estado."
+  },
+  {
+    "id": 12,
+    "marca": "Volvo",
+    "modelo": "XC40 T4 Recharge",
+    "ano": 2022,
+    "combustivel": "Híbrido Plug-in",
+    "km": 32000,
+    "preco": 38900,
+    "potencia": "211 cv",
+    "caixa": "Automática",
+    "cor": "Verde Sage",
+    "destaque": false,
+    "imagem": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Volvo-XC40-front-right.jpg",
+    "descricao": "Volvo XC40 Recharge com 45 km de autonomia elétrica, sistema Pilot Assist, Harman Kardon Premium Sound, teto panorâmico e interior em materiais sustentáveis. A segurança típica da Volvo com o melhor da eletrificação."
+  },
+  {
+    "id": 13,
+    "marca": "SEAT",
+    "modelo": "Ibiza 1.0 TSI FR",
+    "ano": 2022,
+    "combustivel": "Gasolina",
+    "km": 25000,
+    "preco": 18500,
+    "potencia": "110 cv",
+    "caixa": "Manual",
+    "cor": "Vermelho Desire",
+    "destaque": false,
+    "imagem": "https://commons.wikimedia.org/wiki/Special:Redirect/file/2022_Seat_Ibiza_SE_1.0.jpg",
+    "descricao": "SEAT Ibiza FR com visual desportivo, Full Link (Apple CarPlay e Android Auto), Digital Cockpit, suspensão desportiva e jantes de 17 polegadas. Carro jovem e dinâmico com consumos contidos."
   }
 ]
