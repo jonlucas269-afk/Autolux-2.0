@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "marca": "BMW",
+    "modelo": "Série 3",
+    "ano": 2022,
+    "combustivel": "Diesel",
+    "km": 30000,
+    "preco": 34900,
+    "imagem": "/cars/bmw.jpg",
+    "descricao": "Sedan premium com excelente performance e conforto."
+  },
+  {
+    "id": 2,
+    "marca": "Audi",
+    "modelo": "A4",
+    "ano": 2020,
+    "combustivel": "Diesel",
+    "km": 42000,
+    "preco": 31900,
+    "imagem": "/cars/audi.jpg",
+    "descricao": "Sedan premium com tecnologia e conforto."
+  },
+  {
+    "id": 3,
+    "marca": "Mercedes-Benz",
+    "modelo": "Classe C",
+    "ano": 2019,
+    "combustivel": "Diesel",
+    "km": 39000,
+    "preco": 35900,
+    "imagem": "/cars/mercedes.jpg",
+    "descricao": "Luxo e conforto premium."
+  },
+  {
+    "id": 4,
+    "marca": "Ferrari",
+    "modelo": "488 GTB",
+    "ano": 2020,
+    "combustivel": "Gasolina",
+    "km": 12000,
+    "preco": 245000,
+    "imagem": "/cars/ferrari.jpg",
+    "descricao": "Super desportivo de alta performance."
+  },
+  {
+    "id": 5,
+    "marca": "Lamborghini",
+    "modelo": "Huracán",
+    "ano": 2024,
+    "combustivel": "Gasolina",
+    "km": 5000,
+    "preco": 320000,
+    "imagem": "/cars/lambo.jpg",
+    "descricao": "Super desportivo V10 de alta performance."
+  },
+  {
+    "id": 6,
+    "marca": "Porsche",
+    "modelo": "911 GT3",
+    "ano": 2018,
+    "combustivel": "Gasolina",
+    "km": 15000,
+    "preco": 165000,
+    "imagem": "/cars/porsche.jpg",
+    "descricao": "Desportivo puro de pista."
+  }
+]
